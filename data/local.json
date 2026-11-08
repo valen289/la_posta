@@ -1,0 +1,27 @@
+{
+  "nombre": "La Posta",
+  "frase": "El sabor de casa al paso",
+  "ciudad": "Paysandú",
+  "direccion": "Pueblo Esperanza",
+  "referencia": "A pasitos del salón de MEVIR",
+  "donde": "Pueblo Esperanza, a pasitos del salón de MEVIR",
+  "mapa": {
+    "busqueda": "Esperanza, Paysandú, Uruguay",
+    "enlace": null
+  },
+  "horarios": {
+    "zona": "America/Montevideo",
+    "dias": [5, 6, 0],
+    "turnos": []
+  },
+  "whatsapp": "59892787974",
+  "telefono": "092 787 974",
+  "instagram": null,
+  "facebook": null,
+  "envio": {
+    "habilitado": false,
+    "zona": null,
+    "costo": null
+  },
+  "pagos": []
+}

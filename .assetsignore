@@ -1,0 +1,14 @@
+# Archivos del repo que NO se publican en la web (mismo formato que .gitignore)
+.git
+.gitignore
+.assetsignore
+.claude
+.impeccable
+.playwright-mcp
+.wrangler
+node_modules
+fotos-originales
+wrangler.jsonc
+README.md
+PRODUCT.md
+DESIGN.md

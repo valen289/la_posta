@@ -1,0 +1,9 @@
+// Configuración de Cloudflare Workers: el sitio es solo archivos estáticos, sin código de servidor.
+{
+  "name": "la-posta",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    // Se publica la raíz del repo; lo que no va a la web está en .assetsignore
+    "directory": "./"
+  }
+}

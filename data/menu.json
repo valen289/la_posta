@@ -1,0 +1,41 @@
+{
+  "categorias": [
+    {
+      "id": "hamburguesas",
+      "nombre": "Hamburguesas",
+      "nota": "La completa lleva aceitunas, pickles, arvejas, choclo, lechuga, tomate, criollita, hongos, cebolla, jamón, queso, huevo y panceta.",
+      "productos": [
+        { "id": "hamburguesa-jqph", "nombre": "Hamburguesa", "descripcion": "Jamón, queso, panceta y huevo", "precio": 190, "foto": null, "disponible": true },
+        { "id": "hamburguesa-completa", "nombre": "Hamburguesa completa", "descripcion": "", "precio": 210, "foto": null, "disponible": true }
+      ]
+    },
+    {
+      "id": "papas",
+      "nombre": "Papas fritas",
+      "productos": [
+        { "id": "papas-chicas", "nombre": "Papas fritas", "descripcion": "Chicas", "precio": 120, "foto": null, "disponible": true },
+        { "id": "papas-grandes", "nombre": "Papas fritas", "descripcion": "Grandes", "precio": 200, "foto": null, "disponible": true }
+      ]
+    },
+    {
+      "id": "chorizos-panchos",
+      "nombre": "Chorizos y panchos",
+      "nota": "El completo lleva aceitunas, pickles, arvejas, choclo, lechuga, tomate, criollita, hongos, cebolla, jamón, queso, huevo y panceta.",
+      "productos": [
+        { "id": "chorizo-lechuga-tomate", "nombre": "Chorizo", "descripcion": "Con lechuga y tomate", "precio": 180, "foto": null, "disponible": true },
+        { "id": "chorizo-completo", "nombre": "Chorizo completo", "descripcion": "", "precio": 200, "foto": null, "disponible": true },
+        { "id": "pancho-papitas", "nombre": "Pancho", "descripcion": "Con papitas", "precio": 100, "pendiente": "En el flyer dice «Panchos con papitas $100»: confirmar que el precio es por unidad", "foto": null, "disponible": true }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "productos": [
+        { "id": "coca-600", "nombre": "Coca-Cola", "descripcion": "600 ml", "precio": 100, "foto": null, "disponible": true },
+        { "id": "coca-250", "nombre": "Coca-Cola", "descripcion": "250 ml", "precio": 50, "foto": null, "disponible": true },
+        { "id": "fanta-250", "nombre": "Fanta", "descripcion": "250 ml", "precio": 50, "foto": null, "disponible": true },
+        { "id": "cerveza-lata", "nombre": "Cerveza", "descripcion": "Lata", "precio": 80, "pendiente": "En el flyer dice «Cerveza lata»: confirmar la marca", "foto": null, "disponible": true }
+      ]
+    }
+  ]
+}

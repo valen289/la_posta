@@ -1,0 +1,28 @@
+# Dependencias y build
+node_modules/
+dist/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Cloudflare (wrangler)
+.wrangler/
+.dev.vars
+
+# Fotos originales sin optimizar (pesadas, no van al repo)
+fotos-originales/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Herramientas de diseño y pruebas (locales)
+.playwright-mcp/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/decision-payload.json
+.impeccable/config.local.json
