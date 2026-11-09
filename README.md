@@ -62,10 +62,21 @@ Después, abrir http://localhost:4321. **Los pedidos de prueba no se mandan al n
 
 ## Publicar
 
-1. Hablar con La Posta antes: que estén de acuerdo con la página y con el uso del nombre y el logo.
-2. Conectar el repo en Cloudflare (Workers & Pages → crear → importar el repositorio). La dirección queda como `la-posta.<cuenta>.workers.dev`.
-3. Con la dirección definitiva, descomentar `og:image` en `index.html` con la dirección completa de `img/og.jpg`. Sin eso, el enlace compartido por WhatsApp sale sin imagen.
-4. Poner el enlace en la bio de Instagram y hacer un QR para pegar en el carrito.
+### Demo para mostrarle a La Posta (GitHub Pages)
+
+El repo es público, así que GitHub lo sirve gratis:
+
+1. En GitHub: **Settings → Pages**. En "Build and deployment", Source: **Deploy from a branch**; Branch: **main** y carpeta **/ (root)**. Guardar.
+2. En uno o dos minutos queda en **https://valen289.github.io/la_posta/**.
+3. Mientras sea una demo, `index.html` tiene `<meta name="robots" content="noindex">` para que no aparezca en Google. Si La Posta dice que no, se apaga en el mismo lugar (Settings → Pages).
+
+`.nojekyll` evita que GitHub procese los archivos: se publican tal cual.
+
+### Versión definitiva (Cloudflare)
+
+1. Con el OK de La Posta, conectar el repo en Cloudflare (Workers & Pages → crear → importar el repositorio). La dirección queda como `la-posta.<cuenta>.workers.dev`.
+2. Cambiar `og:image` en `index.html` por la dirección nueva de `img/og.jpg` y borrar la línea `noindex`.
+3. Poner el enlace en la bio de Instagram y hacer un QR para pegar en el carrito.
 
 ## Datos pendientes del carrito
 
